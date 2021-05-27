@@ -1,0 +1,38 @@
+@import './styles/layout';
+@import './styles/typography';
+@import './styles/navbar';
+@import './styles/title';
+@import './styles/about';
+@import './styles/contact';
+@import './styles/skill';
+@import './styles/portfolio';
+@import './styles/experience';
+@import '~bootstrap/scss/bootstrap';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: #a4acc4;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.2rem;
+}
+
+span {
+  color: #037fff;
+}
+
+@media screen and (max-width: 411px) {
+  html {
+    font-size: 70%;
+  }
+}

@@ -1,0 +1,44 @@
+.ContactPage {
+  margin: auto;
+  height: 100%;
+  max-width: 500px;
+  display: table;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #191d2b;
+  h4 {
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem;
+  }
+  label {
+    color: #037fff;
+    width: 100%;
+    display: block;
+  }
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 0 5px;
+  }
+  input[type='submit'] {
+    display: table;
+    margin: 0.5rem auto;
+    border: none;
+    border-radius: 2px;
+    padding: 0.6rem 2rem;
+    background-color: #757575;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: #037fff;
+    }
+    &:focus {
+      background-color: #037fff;
+    }
+  }
+}
